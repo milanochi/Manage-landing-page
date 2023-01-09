@@ -1,0 +1,377 @@
+/* .App {
+   text-align: center; 
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+body{
+    font-family: Rubik;
+
+}
+
+/* .container{
+  max-width: 480px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+} */
+.burger-menu{
+  height: 100%;
+  width: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.burger-bar{
+  width: 2em;
+  height: 0.2em;
+  background-color: black;
+  border-radius: 0.5em;
+}
+.burger-bar:nth-child(2){
+  transform: translateY(5px);
+  height: 0.1em;
+}
+.burger-bar:nth-child(3){
+  transform: translateY(10px);
+}
+@media (min-width: 760px) {
+  .burger-menu{
+    display: none;
+  }
+  .menu{
+    /* display: hidden; */
+    opacity: 0;
+    
+  }
+
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+display: none !important;
+}
+
+.burger-bar.clicked:nth-child(1){
+  transform: rotate(45deg) translateY(6px) translate(6px);
+  transition: ease-out 0.5s;
+}
+.burger-bar.clicked:nth-child(2){
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+.burger-bar.clicked:nth-child(3){
+  transform: rotate(-45deg) translateY(3px) translate(-2px);
+  transition: ease-out 0.5s;
+}
+
+.menu{
+  width: 70%;
+  height: 100vh;
+  background-color:#161623;
+  box-shadow:  2px 3px 2px grey ;
+  position: absolute;
+  top:100%;
+  right: 0;
+  z-index: 1;
+
+
+}
+.hide{
+  display: none;
+ 
+}
+.visible{
+  display: inherit;
+ 
+
+}
+.myswiper{
+  width: 100%;
+  height: 300px;
+  
+}
+.swiperslide{
+ 
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 5rem;
+
+}
+.comment__wrapper{
+  background-color: white;
+  min-height: 150px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+}
+#login:hover{
+  transform: translateY(-10%);
+  
+}
+#login{
+  transition: transform 1s;
+}
+
+.commentTop{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+.commentImg{
+  border-radius: 50%;
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+}
+.commentPeriod{
+  font-size: .8em;
+  color: grey;
+}
+.comment__text{
+  margin-top: 1rem;
+  height: 100px;
+  width: 100%;
+ font-size: .8em;
+ font-family: Rubik;
+ line-height: 1.5;
+}
+.comment{
+  min-height: 200px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comment1{
+  min-height: 150px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commentTop1{
+  display: flex;
+  background-color: #61dafb;
+  width: 250px;
+  justify-content: space-between;
+}
+.comment__wrapper1{
+  background-color: white;
+  min-height: 100px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.commentBtn{
+  padding: 10px 20px;
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  border-radius: 5px;
+  font-family: Rubik;
+  font-size: .7em;
+  font-weight: 400;
+}
+.commentImage{
+  border-radius: 50%;
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+}
+.commentHeading{
+  color: black;
+  font-weight: 500;
+  font-size: .8em;
+}
+::placeholder{
+  padding: 8px;
+  font-family: Rubik;
+  font-size: .9em;
+}
+.comment__text1{
+  height: 80px;
+  width: 75%;
+
+}
+.toggle{
+  background-color: #161623;
+  min-height: 300px;
+}
+.toggle__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+.toggle__rect{
+  width: 50px;
+  background-color: #78787880;
+  height: 30px;
+  border-radius: 15px;
+}
+.toggle__circle{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  /* animation: moveball 1.5s ease-in-out forwards; */
+}
+.animate{
+  animation: moveball 1.5s ease-in-out forwards;
+}
+@keyframes moveball {
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+    transform: translateX(70%);
+  }
+}
+.about{
+    min-height: 300px;
+}
+.about__inner{
+    min-height: 300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    line-height: 1.5;
+    
+}
+.about__cards{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.Register{
+  padding: 10px 25px;
+  background-color: #333333;
+  color: white;
+  margin-top: .8rem;
+}
+.App-header_inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+ 
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 25px;
+  font-size: .6rem;
+  color: white;
+  
+
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+ 
+}
+.App_list{
+  font-size: .8rem;
+  display: flex;
+  
+}
+.hero{
+  min-height: 300px;
+
+}
+.hero_inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  /* background-color: #282c34; */
+}
+.hero_card{
+  border: 1px solid grey;
+  height: 250px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card1{
+  background-image: url('assets/\'John\'\ a\ Wick-ed\,\ action-packed\ tale\ of\ stylish\ revenge.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+ 
+}
+.card2{
+  background-image: url('assets/HD\ wallpaper_\ venom\ movie\,\ 2018\ movies\,\ hd\,\ poster\,\ tom\ hardy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+}
+.hero_text{
+    padding: 5px;
+}
+
+.App_link {
+  color: #61dafb;
+  list-style: none;
+  margin-left: 15px;
+}
+.App_list a{
+  text-decoration: none;
+}
+.success{
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.grey{
+  display: flex;
+  justify-content: center;
+  color: #333333;
+}
+
+button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: maroon;
+  color: white;
+  border: none;
+ 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
