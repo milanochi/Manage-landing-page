@@ -15,7 +15,9 @@ const HeroSection = () => {
                                 tasks while keeping the larger team goals in view.</p>
                                  {/* <!--BUTTON--> */}
                                 <div className="max-w-sm text-center md:text-start">
-                                    <a href="#" className="rounded-full bg-brightRed p-3 px-5 py-4 text-md text-white font-semiBold baseline" >Get Started</a>
+                                    <a href="#">
+                                    <button type="button" className="rounded-full bg-brightRed px-5 py-3 text-sm text-white font-semiBold baseline" >Get Started</button>
+                                        </a> 
                                 </div>
                              
                         </div>

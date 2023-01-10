@@ -23,8 +23,9 @@ const Header = () => {
                 </div>
                 {/* <!--BUTTON--> */}
                 <div className='block'>
-                <a href="#" className="hidden rounded-full bg-brightRed py-2 px-4  text-md text-white font-semiBold baseline md:block" >Get Started</a>
-
+                    <a href="#" className='hidden md:block'>
+                        <button type="button" className="rounded-full bg-brightRed px-5 py-3 text-sm text-white font-semiBold baseline" >Get Started</button>
+                                        </a> 
                     {/* <!--HAMBURGER MENU--> */}
                       <NavBar />
                 </div>
