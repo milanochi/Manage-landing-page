@@ -78,7 +78,7 @@ const Testimonials = () => {
                    <img src={User3} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Jameson Cloft
                    </h2>
-                   <p class="text-center text-grayishBlue text-sm md:text-center">“Their software allows us to track, manage and collaborate on our project from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+                   <p class="text-center text-grayishBlue text-sm md:text-center">“Their software allows us to track, manage and collaborate on our project from anywhere.”</p>
                </div>
             </SwiperSlide>
         </Swiper>
