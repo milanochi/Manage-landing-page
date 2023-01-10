@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import User from './images/avatar-anisha.png';
 import User2 from './images/avatar-ali.png';
 import User3  from './images/avatar-richard.png';
+
 const Testimonials = () => {
   return (
     <div>

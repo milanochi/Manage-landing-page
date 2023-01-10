@@ -22,15 +22,14 @@ const Header = () => {
                     <a href="#" className="text-grayishBlue font-bold">Community</a>
                 </div>
                 {/* <!--BUTTON--> */}
-            
-                    <a href="#" className="hidden rounded-full bg-brightRed p-3 px-6 pt-2 text-md text-white font-semiBold baseline md:block" >Get Started</a>
+                <div className='block'>
+                <a href="#" className="hidden rounded-full bg-brightRed py-2 px-4  text-md text-white font-semiBold baseline md:block" >Get Started</a>
 
                     {/* <!--HAMBURGER MENU--> */}
-                  
-                    <NavBar />
-                
-                    
-               
+                      <NavBar />
+                </div>
+            
+                 
             </div>
             
                     {/* <!--MOBILE MENU--> */}
