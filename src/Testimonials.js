@@ -63,8 +63,7 @@ const Testimonials = () => {
                    <img src={User} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Anisha Vasquez
                    </h2>
-                   <p class="text-center text-sm text-grayishBlue md:text-center">“Their software allows us to track, manage and collaborate on our projects 
-  from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+                   <p class="text-center text-sm text-grayishBlue md:text-center">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
                </div>
             </SwiperSlide>
             <SwiperSlide className='swiperslide'>
@@ -73,9 +72,7 @@ const Testimonials = () => {
                    <img src={User2} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Chisom Theckla
                    </h2>
-                   <p class="text-center text-sm text-grayishBlue md:text-center">  “We have been able to cancel so many other subscriptions since using 
-  Manage. There is no more cross-channel confusion and everyone is much 
-  more focused.” </p>
+                   <p class="text-center text-sm text-grayishBlue md:text-center">“We have been able to cancel so many other subscriptions since using  Manage. There is no more cross-channel confusion and everyone is much more focused.” </p>
                </div>
             </SwiperSlide>
             <SwiperSlide className='swiperslide'>
@@ -84,8 +81,7 @@ const Testimonials = () => {
                    <img src={User3} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Jameson Cloft
                    </h2>
-                   <p class="text-center text-grayishBlue text-sm md:text-center"> “Manage allows us to provide structure and process. It keeps us organized 
-  and focused. I can’t stop recommending them to everyone I talk to!” </p>
+                   <p class="text-center text-grayishBlue text-sm md:text-center"> “Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!” </p>
                </div>
             </SwiperSlide>
         </Swiper>
