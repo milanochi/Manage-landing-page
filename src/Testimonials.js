@@ -55,30 +55,30 @@ const Testimonials = () => {
             className='myswiper container md:hidden '>
             <SwiperSlide className='swiperslide'>
                {/* <!--USER 1--> */}
-               <div class="flex flex-col items-center bg-gray-100 p-6 px-8 space-y-6">
+               <div class="flex flex-col items-center bg-gray-100 p-6 px-8 py-8 space-y-4">
                    <img src={User} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Anisha Vasquez
                    </h2>
-                   <p class="text-center text-xs text-grayishBlue md:text-center">“Set internal delivery estimates and track progress toward company”
+                   <p class="text-center text-sm text-grayishBlue md:text-center">“Set internal delivery estimates and track progress toward company”
 </p>
                </div>
             </SwiperSlide>
             <SwiperSlide className='swiperslide'>
                  {/* <!--USER 2--> */}
-                 <div class=" flex flex-col items-center bg-gray-100 p-6 px-6 space-y-6 ">
+                 <div class=" flex flex-col items-center bg-gray-100 p-6 px-6 py-8 space-y-4 ">
                    <img src={User2} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Chisom Theckla
                    </h2>
-                   <p class="text-center text-xs text-grayishBlue md:text-center">“We have been able to cancel so many other subscriptions since using Manage.”</p>
+                   <p class="text-center text-sm text-grayishBlue md:text-center">“We have been able to cancel so many other subscriptions since using Manage.”</p>
                </div>
             </SwiperSlide>
             <SwiperSlide className='swiperslide'>
                {/* <!--USER 3--> */}
-               <div class=" flex flex-col items-center bg-gray-100 p-6 px-8 space-y-6">
+               <div class=" flex flex-col items-center bg-gray-100 p-6 px-8 py-8 space-y-4">
                    <img src={User3} class="-mt-14 w-16" alt="userImg" />
                    <h2 class=" px-4 text-2xl text-darkBlue font-bold ">Jameson Cloft
                    </h2>
-                   <p class="text-center text-grayishBlue text-xs md:text-center">“Their software allows us to track, manage and collaborate on our project from anywhere.”</p>
+                   <p class="text-center text-grayishBlue text-sm md:text-center">“Their software allows us to track, manage and collaborate”</p>
                </div>
             </SwiperSlide>
         </Swiper>
