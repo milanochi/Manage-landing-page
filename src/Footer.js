@@ -49,7 +49,7 @@ const Footer = () => {
                                     <div class="flex flex-col justify-between">
                                        <form>
                                            <div class="flex space-x-3">
-                                            <input type="text" placeholder="Updates in your inbox..." class="rounded-full bg-white flex-1 px-4 text-sm baseline focus:outline-none" />
+                                            <input type="text" placeholder="Updates in your inbox..." class="rounded-full bg-white flex-1 px-4 text-md baseline focus:outline-none md:text-sm" />
                                             <a href="#" id="login" class="rounded-full text-white bg-brightRed p-3 px-6 font-semiBold baseline" >Go</a>
                                         
                                            </div>

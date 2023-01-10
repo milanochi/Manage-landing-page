@@ -16,7 +16,7 @@ const HeroSection = () => {
                                  {/* <!--BUTTON--> */}
                                 <div className="max-w-sm text-center md:text-start">
                                     <a href="#">
-                                    <button type="button" className="rounded-full bg-brightRed px-5 py-3 text-sm text-white font-semiBold baseline" >Get Started</button>
+                                    <button type="button" className="rounded-full bg-brightRed px-8 py-3 text-md text-white font-semiBold baseline" >Get Started</button>
                                         </a> 
                                 </div>
                              
