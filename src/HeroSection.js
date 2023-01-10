@@ -14,7 +14,7 @@ const HeroSection = () => {
                             <p className="max-w-sm text-center text-grayishBlue md:text-left"> Manage makes it simple for software teams to plan day-to-day 
                                 tasks while keeping the larger team goals in view.</p>
                                  {/* <!--BUTTON--> */}
-                                <div className="max-w-sm text-center md:text-start">
+                                <div className="md:max-w-sm text-center md:text-start">
                                     <a href="#">
                                     <button type="button" className="rounded-full bg-brightRed px-8 py-3 text-md text-white font-semiBold baseline" >Get Started</button>
                                         </a> 
